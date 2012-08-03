@@ -1,0 +1,36 @@
+﻿<phone:PhoneApplicationPage x:Class="$rootnamespace$.$safeitemname$"
+    xmlns       ="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x     ="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone ="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell ="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d     ="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc    ="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily  ="{StaticResource PhoneFontFamilyNormal}"
+    FontSize    ="{StaticResource PhoneFontSizeNormal}"
+    Foreground  ="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="728"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="12,0,12,0"></Grid>
+    </Grid>
+ 
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

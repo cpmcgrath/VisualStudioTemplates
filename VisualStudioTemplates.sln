@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneCleanTemplates", "WindowsPhoneCleanTemplates\WindowsPhoneCleanTemplates.csproj", "{40ABAAFE-406B-4F25-B6F8-76BE6F2504FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63579801-6F6F-408A-AB19-CD115E4DFEC3} = {63579801-6F6F-408A-AB19-CD115E4DFEC3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneLayoutTemplate", "WindowsPhoneLayoutTemplate\WindowsPhoneLayoutTemplate.csproj", "{C6A9BC0B-E751-48E4-AB20-A4A2A8EAE0F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateZipper", "TemplateZipper\TemplateZipper.csproj", "{63579801-6F6F-408A-AB19-CD115E4DFEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneCleanTemplates.Source", "WindowsPhoneCleanTemplates.Source\WindowsPhoneCleanTemplates.Source.csproj", "{4036FEEE-82A9-4D55-BBC8-D26B2C316529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneLayoutTemplate.Source", "WindowsPhoneLayoutTemplate.Source\WindowsPhoneLayoutTemplate.Source.csproj", "{6BDE3A6F-C273-4E42-83BA-FA6AEC63B6CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40ABAAFE-406B-4F25-B6F8-76BE6F2504FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40ABAAFE-406B-4F25-B6F8-76BE6F2504FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40ABAAFE-406B-4F25-B6F8-76BE6F2504FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40ABAAFE-406B-4F25-B6F8-76BE6F2504FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A9BC0B-E751-48E4-AB20-A4A2A8EAE0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A9BC0B-E751-48E4-AB20-A4A2A8EAE0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A9BC0B-E751-48E4-AB20-A4A2A8EAE0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A9BC0B-E751-48E4-AB20-A4A2A8EAE0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63579801-6F6F-408A-AB19-CD115E4DFEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63579801-6F6F-408A-AB19-CD115E4DFEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63579801-6F6F-408A-AB19-CD115E4DFEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63579801-6F6F-408A-AB19-CD115E4DFEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4036FEEE-82A9-4D55-BBC8-D26B2C316529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4036FEEE-82A9-4D55-BBC8-D26B2C316529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDE3A6F-C273-4E42-83BA-FA6AEC63B6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDE3A6F-C273-4E42-83BA-FA6AEC63B6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

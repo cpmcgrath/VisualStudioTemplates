@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>PivotPage.xaml</DefaultName>
+    <Name>Windows Phone Clean Pivot Page</Name>
+    <Description>Adds a new Silverlight for Windows Phone Page with Pivot Control (No Comments)</Description>
+    <ProjectType>CSharp</ProjectType>
+    <TemplateID>Microsoft.Silverlight.WindowsPhone.CSharp.PivotPage</TemplateID>
+    <TemplateGroupID>Silverlight for Windows Phone</TemplateGroupID>
+    <ShowByDefault>false</ShowByDefault>
+    <SortOrder>14</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>Microsoft.Phone</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Microsoft.Phone.Interop</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Microsoft.Phone.Controls</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">PivotPage.xaml</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">PivotPage.xaml.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

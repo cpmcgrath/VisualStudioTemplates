@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4036FEEE-82A9-4D55-BBC8-D26B2C316529}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsPhoneCleanTemplates.Source</RootNamespace>
+    <AssemblyName>WindowsPhoneCleanTemplates.Source</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemTemplates\Windows Phone\Landscape\__TemplateIcon.ico" />
+    <None Include="ItemTemplates\Windows Phone\Landscape\WindowsPhoneCleanLandscapePage.vstemplate" />
+    <None Include="ItemTemplates\Windows Phone\Panorama\__TemplateIcon.ico" />
+    <None Include="ItemTemplates\Windows Phone\Panorama\Panorama.vstemplate" />
+    <None Include="ItemTemplates\Windows Phone\Pivot\__TemplateIcon.ico" />
+    <None Include="ItemTemplates\Windows Phone\Pivot\Pivot.vstemplate" />
+    <None Include="ItemTemplates\Windows Phone\Portrait\__TemplateIcon.ico" />
+    <None Include="ItemTemplates\Windows Phone\Portrait\WindowsPhoneCleanPortraitPage.vstemplate" />
+    <None Include="ProjectTemplates\Windows Phone\Application\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
+    <None Include="ProjectTemplates\Windows Phone\Application\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </None>
+    <None Include="ProjectTemplates\Windows Phone\Application\Properties\AssemblyInfo.cs" />
+    <None Include="ItemTemplates\Windows Phone\Landscape\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\Windows Phone\Panorama\PanoramaPage.xaml.cs">
+      <DependentUpon>PanoramaPage.xaml</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\Windows Phone\Pivot\PivotPage.xaml.cs">
+      <DependentUpon>PivotPage.xaml</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\Windows Phone\Portrait\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </None>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\__PreviewImage.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\__TemplateIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\csWindowsPhoneApplicationTemplateClean.vstemplate" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\Images\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\Images\Tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\Windows Phone\Application\WindowsPhoneApplicationTemplateClean.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemTemplates\Windows Phone\Landscape\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemTemplates\Windows Phone\Panorama\PanoramaPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemTemplates\Windows Phone\Pivot\PivotPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemTemplates\Windows Phone\Portrait\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
